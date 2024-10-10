@@ -9,7 +9,7 @@
 /* Header related styles */
 header{
     background-image: url(../assets/Hero-bg.png);
-    width: 1588px;
+    width: auto;
     height: 652px;
 }
 .banner-container{
