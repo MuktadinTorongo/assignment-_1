@@ -69,7 +69,8 @@ header{
 .box{
     margin-top: 50px;
     display: flex;
-    padding: 48px;
+    padding: 30px;
+    height: 200px;
     flex-direction: column;
     gap: 32px;
     border-radius: 16px;
@@ -120,7 +121,8 @@ header{
 }
 .box2{
     display: flex;
-    padding: 48px;
+    padding: 30px;
+    height: 200px;
     flex-direction: column;
     gap: 32px;
     align-self: stretch;
@@ -242,4 +244,50 @@ header{
     font-size: 16px;
     font-weight: 700;
     text-decoration-line: underline;
+}
+/* support section styles */
+
+.support{
+    background-image: url(../assets/handshake.jpg);
+    justify-content: center;
+    text-align: center;
+    margin-top: 100px;
+    height: 630px;
+    margin-left: 150px;
+    margin-right: 150px;
+    border-radius: 16px;
+}
+.support-text{
+    padding: 21%;
+}
+.support-title{
+    color: #FFF;
+    font-size: 32px;
+    font-weight: 700;
+}
+.support-paragraph{
+    color: #fffdfd;
+    font-size: 16px;
+    font-weight: 400;
+}
+.support-btn-1{
+    width: 548px;
+    padding: 19px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    border: 1px solid rgba(13, 19, 33, 0.15);
+    background: #FFF;
+    color: rgba(13, 19, 33, 0.40);
+    text-align: center;
+    font-size: 16px;
+    font-weight: 400;
+    cursor: pointer;
+}
+.support-btn-2{
+    width: 120px;
+    padding: 17px 20px;
+    gap: 10px;
+    border-radius: 8px;
+    background: #FFF;
+    cursor: pointer;
 }
